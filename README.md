@@ -214,3 +214,11 @@ En AWS EC2, cada instancia tiene una IP privada (para comunicación interna) y u
   - IP pública (internet)  
 
 - La IP pública puede cambiar (a menos que uses Elastic IP)
+
+# Conclusión Final
+
+ En conclusión, las direcciones IP son esenciales para que los dispositivos se comuniquen en internet. Como desarrolladores, las usamos constantemente al conectar frontend, backend y bases de datos, aunque no siempre se vean directamente.
+
+Entenderlas permite no solo hacer que una aplicación funcione correctamente, sino también detectar errores comunes de conexión y evitar problemas de seguridad.
+
+Por eso, conocer cómo funcionan las IP es una habilidad clave en el desarrollo real.
