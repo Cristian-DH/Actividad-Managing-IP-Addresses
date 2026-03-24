@@ -170,6 +170,20 @@ Traduce nombres como `google.com` a una IP real.
 - DHCP = persona que asigna casas automáticamente  
 
 ---
+#  Ejemplo: cómo afecta a un desarrollador
+
+“Por ejemplo, estamos desarrollando una aplicación con un frontend y un backend.
+El backend lo tenemos corriendo en nuestro computador en localhost:3000, y el frontend intenta hacer un fetch a esa dirección.
+Todo funciona bien en nuestro PC, pero cuando otra persona intenta usar la aplicación desde su computador, no funciona.
+¿La razón?
+Estamos usando localhost, que apunta solo a nuestro propio computador. Entonces el otro equipo intenta conectarse a sí mismo, no a nuestro backend.
+La solución sería usar nuestra IP local, como 192.168.x.x, o subir el backend a un servidor con una IP pública.
+Este es un ejemplo claro de cómo no entender las direcciones IP puede hacer que una aplicación no funcione, aunque el código esté bien.”
+
+
+
+
+
 
 # 🧠 BONUS
 
