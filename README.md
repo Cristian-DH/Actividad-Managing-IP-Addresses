@@ -174,6 +174,7 @@ Traduce nombres como `google.com` a una IP real.
 # 🧠 BONUS
 
 ## 🔹 ¿Qué es NAT?
+NAT es una función del router que permite que varios dispositivos con IP privada compartan una sola IP pública para acceder a internet, traduciendo las direcciones entre la red interna y externa.
 
 - Traduce IP privadas a una IP pública  
 - Permite que muchos dispositivos compartan una sola IP de internet  
@@ -183,6 +184,7 @@ Traduce nombres como `google.com` a una IP real.
 ---
 
 ## 🔹 IP en Docker
+En Docker, cada contenedor tiene su propia IP privada dentro de una red interna virtual. Los contenedores se comunican entre sí usando esas IPs, y para acceder desde fuera se exponen puertos, por ejemplo localhost:3000, que redirige al contenedor.
 
 - Cada contenedor tiene su propia IP interna  
 - Se comunican dentro de una red virtual  
@@ -191,6 +193,7 @@ Traduce nombres como `google.com` a una IP real.
 ---
 
 ## 🔹 IP en AWS (EC2)
+En AWS EC2, cada instancia tiene una IP privada (para comunicación interna) y una IP pública (para acceso desde internet). La IP pública puede cambiar al reiniciar, a menos que uses una Elastic IP, que es fija.
 
 - Tiene:
   - IP privada (interna)  
